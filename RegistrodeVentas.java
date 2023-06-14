@@ -4,7 +4,10 @@ package poo_supermarket;
 import java.util.ArrayList;
 
 public class RegistrodeVentas extends Venta{
-     ArrayList<Venta> listVenta = new ArrayList<Venta>();
+    ArrayList<Venta> listVenta = new ArrayList<Venta>();
+     
+     public RegistrodeVentas(){
+    }
      
      public void agregarV(Venta v){
         this.listVenta.add(v);
